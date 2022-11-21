@@ -114,9 +114,15 @@ Software needed for this application to work
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Nothing to show as of yet.
+After cloning the project, there are a couple simple steps.
 
-_For more examples, please refer to the [Documentation](https://github.com/BradHeff/Coding-Class-Template/wiki)_
+1. Make sure Python is installed. (See <a href="#prerequisites">Prerequisites</a> above)
+2. Open Terminal `⌘+R` type `cmd` 
+3. navigate to git folder `cd C:\Path\to\Coding-Class-Template`
+4. Then run the `base.py` file. 
+`python base.py`
+
+<!--_For more examples, please refer to the [Documentation](https://github.com/BradHeff/Coding-Class-Template/wiki)_-->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
