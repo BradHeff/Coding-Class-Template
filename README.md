@@ -16,10 +16,10 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">Horizon Account Verifier</h3>
+<h3 align="center">Coding Class Template</h3>
 
   <p align="center">
-    An Account Verification App, to make sure an account exists on the network
+    Template to use with Horizon Christian School Coding Class to explore GUI development
     <br />
     <a href="https://github.com/BradHeff/Coding-Class-Template"><strong>Explore the docs »</strong></a>
     <br />
