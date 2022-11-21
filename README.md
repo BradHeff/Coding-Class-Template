@@ -199,8 +199,9 @@ Project Link: [https://github.com/bradheff/Coding-Class-Template](https://github
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/brad-heffernan83/
 
+
 [product-screenshot]: images/screenshot1.png
-[tkinter]: https://img.shields.io/badge/tkinter-Python%20interface%20to%20Tcl%2FTk-orange?style=for-the-badge
+[tkinter]: https://img.shields.io/badge/tkinter-35495E?style=for-the-badge&logo=python&logoColor=61DAFB
 [Python3]: https://img.shields.io/badge/Python-35495E?style=for-the-badge&logo=python&logoColor=61DAFB
 [python-url]: https://www.python.org/
 [tkinter-url]: https://docs.python.org/3/library/tkinter.html
