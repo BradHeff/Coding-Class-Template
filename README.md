@@ -79,7 +79,7 @@ Add some dummy functions for students to work with and explore.
 ### Built With
 
 * [![Python][Python3]][python-url]
-* [![TKInter][Python3]][python-url]
+* [![tkinter][tkinter]][tkinter-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -200,6 +200,7 @@ Project Link: [https://github.com/bradheff/Coding-Class-Template](https://github
 [linkedin-url]: https://www.linkedin.com/in/brad-heffernan83/
 
 [product-screenshot]: images/screenshot1.png
-
+[tkinter]: https://img.shields.io/badge/tkinter-Python%20interface%20to%20Tcl%2FTk-orange?style=for-the-badge
 [Python3]: https://img.shields.io/badge/Python-35495E?style=for-the-badge&logo=python&logoColor=61DAFB
 [python-url]: https://www.python.org/
+[tkinter-url]: https://docs.python.org/3/library/tkinter.html
