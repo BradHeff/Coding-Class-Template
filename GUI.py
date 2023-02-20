@@ -6,8 +6,7 @@
 Importing image base64 code from base64_logo.py
 '''
 from base64_logo import imageString
-from base64_logo import logoString
-
+import tkinter as tk
 '''
 Set the window variables
 '''
@@ -42,28 +41,19 @@ def Window(self):
 '''
 Set the icon of the window
 '''
-def windowIcon(self, tk):
-    photo = tk.PhotoImage(data=logoString) # add base64 image string to Tk photoimage data variable
+def windowIcon(self):
+    photo = tk.PhotoImage(data=imageString) # add base64 image string to Tk photoimage data variable
     self.wm_iconphoto(False, photo) # set the window icon with photoimage data variable
-
-'''
-Add image to top of window
-'''
-def header(self, tk):
-    global header # declare header variable as global (This will save the image import of photoimage globally)
-    header = tk.PhotoImage(data=imageString) # add base64 image sting to Tk photoimage data variable
-    tk.Label(self, image = header).pack() # add the photoimage data variable to label and pack to window
 
 
 '''
 The main GUI function called from base.py init function
 '''
-def GUI_Window(self, tk):
+def GUI_Window(self):
     
     Window(self) # Set the window parameters
-    windowIcon(self, tk) # Set the icon for the window
-    
-    header(self, tk) # Set the header logo inside the window
+    windowIcon(self) # Set the icon for the window    
+
     
     ''' Set the default padding for the components'''
     padding = {
@@ -73,6 +63,8 @@ def GUI_Window(self, tk):
     
     '''Create a Label to show at top of the window'''
     lbl1 = tk.Label(self, text="This is a Lable :D ")
+    self.box = tk.Entry(self, width=40)
+    self.box.pack(fill=tk.X, **padding)
     '''
     anchor the label at the top (N = north), make the label component
     fill the width of the available space

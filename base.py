@@ -33,13 +33,14 @@ class Base(tk.Tk): # set class argument as tkinter's Tk() function
         """        
         self.switch = 0
         
-        GUI.GUI_Window(self, tk)
+        GUI.GUI_Window(self)
     
     '''
     This function is called from the command= variable
     from button statement in GUI.py
     '''
     def btn_clicked(self):
+        print(self.box.get())
         if(self.switch == 0):
             '''Set the text field of the label (this is made blank on initialization in GUI.py)'''
             self.lbl2['text'] = "You Clicked the Button :D "
